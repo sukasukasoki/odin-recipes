@@ -1,0 +1,45 @@
+div{
+    margin-bottom: -20px;
+    padding-top: 5px;
+    padding-bottom: 45px;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+img .align{
+    text-align: center;
+}
+
+.desc,
+.ingr,
+.step{
+    /* display: flex;
+    align-items: flex-start; */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul,ol{
+    text-align: left; /*From the above selector, we already have center, but it wouldn't makes the list left aligned*/
+    background-color: bisque;
+    display: inline-block;/* Makes the list block element inline-block */
+    /* text-align: left; Aligns list items properly within its box */
+    /* margin: 0 auto; Centers the inline-block list */
+    /* padding: 0; Removes extra padding */
+}
+
+.desc{
+    background-color: cornsilk;
+}
+
+.ingr{
+    background-color: blanchedalmond;
+}
+
+.step{
+    background-color: coral;
+}
+
